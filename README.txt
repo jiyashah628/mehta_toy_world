@@ -1,17 +1,17 @@
-MEHTA TOY WORLD — PREMIUM CATALOGUE DEMO
+MEHTA TOY WORLD — CLEAN DEMO WEBSITE
 
-This version is built around the real images supplied in the conversation plus high-resolution generated category visuals.
+This version keeps only local assets that are actively used by the website.
+Product showcase imagery is loaded from the product image URLs used in the demo.
+The old Instagram/store collage images have been removed from the assets folder.
 
-Main pages:
-- index.html — premium landing page
-- shop.html — searchable category catalogue with WhatsApp enquiry links
+IMPORTANT:
+- Product availability and prices are not claimed by this demo. Confirm with Mehta Toy World.
+- Third-party product images are for prototype/demo presentation. For a commercial launch, replace them with store-approved or properly licensed images and preferably self-host them.
+- The site is a catalogue/enquiry demo unless a real backend, cart, payment and order system is added.
 
-Important:
-- Prices and stock are intentionally not invented.
-- Board games listed as examples include Life, CATAN and Business; availability should be confirmed by the store.
-- Supplied photos are stored in /assets.
-- The generated category showcase is also split into category tiles for the site.
-- WhatsApp number used in the demo: +91 81400 92255.
-- Store location used: Pragati Nagar Road, Naranpura, Ahmedabad.
-
-For production, replace generated category visuals with licensed manufacturer/distributor product images where available, and add the store's approved logo, current prices, stock and policies.
+FILES:
+index.html — homepage
+shop.html — catalogue/shop page
+style.css — styling
+app.js — catalogue and interactions
+assets/ — only currently used local assets
